@@ -1,33 +1,29 @@
-.App {
-  text-align: center;
+.wrapper {
+  /* display: flex; */
+  margin-bottom: 20px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.table {
+  /* flex-grow: 1; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form {
+  /* flex-basis: 250px;
+  flex-shrink: 0;  */
+  margin-bottom:20px;
+  width: 250px;
+  /* flex-shrink: 0; prevents the aside from shrinking, if the section attempts to grow due to its content. (see third example) */
+  
+  /* Instead of flex-basis: 150px; and flex-shrink: 0; you can use the shorthand: */
+  /* flex: 0 0 150px; */
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+
+
+
